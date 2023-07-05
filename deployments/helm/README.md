@@ -6,5 +6,5 @@
 
 ![helm_install](../../images/helm_install.png)
 
-* Check current status with `watch -n 1 kubectl get all -n hbr-keycloak` or via [Kubernetes Dashboard](../../kube_dashboard/README.md)
+* Check current status with `watch -n 1 kubectl get all -n hbr-keycloak` 
 * Uninstall with `helm uninstall keycloak-k8s-local`
