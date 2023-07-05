@@ -7,7 +7,7 @@
 - [kubectl](https://kubernetes.io/docs/tasks/tools/)
 - [Helm](https://helm.sh/docs/intro/install/)
 
-### KinD
+### k8s setup (KinD)
 
 ```
 $ cd kind
