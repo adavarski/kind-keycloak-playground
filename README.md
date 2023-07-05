@@ -1,11 +1,22 @@
-## Keycloak on k8s (KinD)
+## Keycloak with PostgreSQL on Kubernetes (KinD)
 
-The following packages and tools have been used to setup the system:
+### Dependencies
 
-* Keycloak
-* PostgreSQL
-* Kind
-* Helm
+- [Docker](https://docs.docker.com/engine/install/ubuntu/)
+- [Kind](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
+- [kubectl](https://kubernetes.io/docs/tasks/tools/)
+- [Helm](https://helm.sh/docs/intro/install/)
+
+### KinD
+
+```
+$ cd kind
+### Create k8s Cluster 
+$ kind create cluster --name=hbr-cluster --config=config.yml
+
+### Install NGINX Ingress
+$ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml
+```
 
 ### Manual installation
 
