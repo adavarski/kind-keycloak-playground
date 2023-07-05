@@ -63,3 +63,4 @@ Access Keycloak UI (Browser): https://localhost/admin/master/console/
 
 
 #### [Thanks]( https://github.com/brakmic/Keycloak_on_Kubernetes)
+REF: https://blog.brakmic.com/keycloak-with-postgresql-on-kubernetes/
