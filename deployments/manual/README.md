@@ -7,7 +7,7 @@ kubectl apply -f 02_secrets.yml
 kubectl apply -f 03_storage.yml
 kubectl apply -f 04_postgres.yml
 kubectl apply -f 05_keycloak.yml
-kubectl apply -f kubectl apply -f 06_ingress.yml
+kubectl apply -f 06_ingress.yml
 ```
 * Enter `watch -n 1 kubectl get all -n hbr-keycloak` to query the current state of deployments.
 
