@@ -6,7 +6,7 @@
   ```
   helm template keycloak-k8s-local keycloak-k8s-local
   ```
-If there is nothing for Helm to complain about the result will be a YAML file that contains all elements from separate YAMLs.
+  If there is nothing for Helm to complain about the result will be a YAML file that contains all elements from separate YAMLs.
 
 * Now it’s time to deploy the system! For this we invoke the install command by referencing the chart name and giving the name of the deployment.
   Install deployments with
