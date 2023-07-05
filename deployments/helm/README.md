@@ -13,5 +13,6 @@ If there is nothing for Helm to complain about the result will be a YAML file th
   ```
   helm install keycloak-k8s-local keycloak-k8s-local
   ```
+  That’s it. That’s all it takes for Helm to deploy everything we can did manually. 
 * Check current status with `watch -n 1 kubectl get all -n hbr-keycloak` 
 * Uninstall with `helm uninstall keycloak-k8s-local`
