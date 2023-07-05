@@ -26,4 +26,5 @@ To install everything by hand, use the YAMLs located [here](./deployments/manual
 
 For Helm installation go [here](./deployments/helm/README.md).
 
-### REF: https://github.com/brakmic/Keycloak_on_Kubernetes
+### Thanks
+https://github.com/brakmic/Keycloak_on_Kubernetes
