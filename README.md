@@ -59,7 +59,7 @@ hbr-keycloak   keycloak   <none>   localhost   localhost   80, 443   58s
 
 Access Keycloak UI (Browser): https://localhost/admin/master/console/
 
-<img src="images/keycloak-UI.png?raw=true" width="1000">
+<img src="images/keycloak_postgres_on_k8s.gif?raw=true" width="1000">
 
 ### Clean env:
 ```
