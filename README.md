@@ -66,5 +66,7 @@ Access Keycloak UI (Browser): https://localhost/admin/master/console/
 kind delete cluster --name=hbr-cluster 
 ```
 
-#### [Thanks]( https://github.com/brakmic/Keycloak_on_Kubernetes & https://blog.brakmic.com/keycloak-with-postgresql-on-kubernetes/)
+#### Ref:
+- https://github.com/brakmic/Keycloak_on_Kubernetes
+- https://blog.brakmic.com/keycloak-with-postgresql-on-kubernetes/)
 
