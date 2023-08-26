@@ -68,5 +68,5 @@ kind delete cluster --name=hbr-cluster
 
 #### Ref:
 - https://github.com/brakmic/Keycloak_on_Kubernetes
-- https://blog.brakmic.com/keycloak-with-postgresql-on-kubernetes/)
+- https://blog.brakmic.com/keycloak-with-postgresql-on-kubernetes/
 
